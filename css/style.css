@@ -1,5 +1,135 @@
 body{
+	font-family: "Segoe UI";
+	background-color: #ffffff;
+}
 
+@font-face {
+	font-family: "Segoe UI";
+	src: url("../fonts/segue.ttf");
+}
+
+@font-face {
+	font-family: "Segoe UI Bold";
+	src: url("../fonts/segue-bold.ttf");
+}
+
+.main-header {
+	background-color: #23232e;
+	height: 849px;
+	width: 100%;
+	padding-top: 82px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+.logo {
+	width: 130px;
+}
+
+.title-white {
+	margin-bottom: 36px;
+	margin-top: 155px;
+	color: #ffffff;
+}
+
+.title {
+	font-family: "Segoe UI Bold";
+	font-size: 80px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.header-paragraph {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 400;
+	line-height: 1.7;
+	margin: 0 auto 185px;
+	max-width: 450px;
+	min-width: 200px;
+	text-align: center;
+}
+
+.btn-scroll {
+	display: block;
+	margin: 0 auto;
+	background-color: inherit;
+	border: none;
+	background: url("../img/scroll.png") no-repeat;
+	padding: 0;
+	width: 47px;
+	height: 47px;
+}
+
+.main-section {
+	padding-top: 118px;
+	padding-bottom: 123px;
+	background: url("../img/lines.png") no-repeat;
+}
+
+.container-2 {
+	width: 100%;
+	max-width: 935px;
+	margin: 0 auto;
+}
+
+.container-1 {
+	width: 100%;
+	max-width: 860px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 90px;	
+}
+
+.title-black {
+	color: #464b4f;
+	text-align: center;
+	margin-bottom: 72px;
+}
+
+.info {
+	margin-top: 0;
+	margin-bottom: 40px;
+	letter-spacing: 0.9px;
+	line-height: 1.5;
+	font-size: 28px;	
+}
+
+.service {
+	display: block;
+	font-size: 0;
+}
+
+.col {
+	display: inline-block;
+	width: 32%;
+	margin-right: 2%;
+	font-size: 16px;
+	vertical-align: top;
+}
+
+.col:last-child {
+	margin-right: 0;
+}
+
+.service-item {
+	font-size: 17px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.service-details {
+	margin-left: 0;
+    line-height: 1.85;
 }
 
 /* Layout */
